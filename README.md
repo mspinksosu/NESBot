@@ -1,5 +1,5 @@
 # NESBot
-A Nintendo NES power robot
+A Nintendo NES powered robot
 
 ####About This Project
 I've been asked to help a friend on an endeavour to build and program a Nintendo NES to drive motors and servos. The goal of this project is to learn hardware design and how to program the NES's 2A03 processor. I will designing most of the hardware for this project.
