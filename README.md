@@ -12,7 +12,7 @@ Right now my cartridge is based on an [NROM cart](http://wiki.nesdev.com/w/index
 
 So far, I have successfully made a reprogrammable cartridge using [AT28C256 EEPROMs](http://www.atmel.com/Images/doc0006.pdf) and a hand modified Baseball cartridge. They were programmed using a ChipMax Programmer that I'm borrowing. Cheaper EEPROM programmers can be sourced from eBay, but your mileage may vary.
 
-We may end up putting the code on a flash memory chip or a microntroller in the future.
+We may end up putting the code on a flash memory chip or a microntroller in the future. Regardless of how the code is stored, it still must be presented to the NES like a real EPROM chip.
 
 ####Hardware Interface
 We plan to use the exapnsion port on the bottom of the NES. The overall goal is to place an unmodified NES on a chassis with an expansion port connector, plug in the cartridge and go.
