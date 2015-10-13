@@ -17,7 +17,7 @@ We may end up putting the code on a flash memory chip or a microntroller in the 
 ####Hardware Interface
 We plan to use the exapnsion port on the bottom of the NES. The overall goal is to place an unmodified NES on a chassis with an expansion port connector, plug in the cartridge and go.
 
-Some of the expansion pins are mapped to the cartridge directly to the cartridge. Since the NES CPU has very little periphals, we could place any needed peripherals (for example, a timer) in the cartridge itself.
+Some of the expansion pins are mapped to the directly to the cartridge. Since the NES CPU has very little periphals, we could place any needed peripherals (for example, a timer) in the cartridge itself.
 
 ####Communication
 This part of the process will most likely need a microcontroller. I plan to hold data received wirelessly in a buffer, to be read by the NES CPU via SPI.
