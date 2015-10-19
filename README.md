@@ -5,7 +5,7 @@ A Nintendo NES powered robot
 I've been asked to help a friend on an endeavour to build and program a Nintendo NES to drive motors and servos. The goal of this project is to learn hardware design and how to program the NES's 2A03 processor. I will designing most of the hardware for this project.
 
 ####Program Execution
-We are going to strive to use the NES processor as much as possible, and not rely on a microcontroller to do all the heavy lifting. This means that the program must be executed from a real cartridge, just it would back in the day. 
+We are going to strive to use the NES processor as much as possible, and not rely on a microcontroller to do all the heavy lifting. This means that the program must be executed from a real cartridge, just like it would back in the day. 
 
 ####Cartridge Memory
 Right now my cartridge is based on an [NROM cart](http://wiki.nesdev.com/w/index.php/NROM) which will have 32kB of program memory and 8kB of character memory.
