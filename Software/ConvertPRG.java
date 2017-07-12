@@ -8,7 +8,7 @@ public class ConvertPRG
 		// Be sure the input is valid
 		if(args.length < 2)
 		{
-			System.error.println("USAGE: java ConvertPRG <infile> <outfile>");
+			System.err.println("USAGE: java ConvertPRG <infile> <outfile>");
 			System.exit(1);
 		}
 		
@@ -36,7 +36,7 @@ public class ConvertPRG
 			// Make sure the input file exists. Chastise foolish user if it doesn't.
 			if(!inFile.isFile())
 			{
-				System.error.println("File " + inFile.getName() + " not found.");
+				System.err.println("File " + inFile.getName() + " not found.");
 				System.exit(1);
 			}
 			
@@ -48,7 +48,7 @@ public class ConvertPRG
 				while(overwriteChar != 'y')
 				{
 					System.out.println("Really overwrite " + outFile.getName() + "? (y/n)");
-					overwriteChar = userIn.next().charAt(0).toLowerCase();
+					overwriteChar = Character.toLowerCase(userIn.next().charAt(0));
 					
 					if(overwriteChar == 'n')
 					{
@@ -66,13 +66,10 @@ public class ConvertPRG
 			out.write(rom, 0, rom.length); // write the rom without INES header
 			out.write(rom, 0, rom.length); // write the same data to bank 2
 			
-			in.finalize();
-			out.finalize();
-
 			// Let's just be sure the sizes are correct.
-			System.out.println("Size of input file: 0x" + Integer.toHexString(inFile.getTotalSpace()));
+			System.out.println("Size of input file: 0x" + Long.toHexString(inFile.length()));
 			System.out.println("(Expected: 0x4010)");
-			System.out.println("Size of output file: 0x" + Integer.toHexString(outFile.getTotalSpace()));
+			System.out.println("Size of output file: 0x" + Long.toHexString(outFile.length()));
 			System.out.println("(Expected: 0x8000)");
 		}
 		catch(Exception e)
