@@ -1,0 +1,62 @@
+Added Component: Designator=CHR ROM(DIP600-JW28)
+Added Component: Designator=PRG ROM(DIP600-JW28)
+Added Pin To Net: NetName=GND Pin=CHR ROM-1
+Added Pin To Net: NetName=CHR_A12 Pin=CHR ROM-2
+Added Pin To Net: NetName=CHR_A7 Pin=CHR ROM-3
+Added Pin To Net: NetName=CHR_A6 Pin=CHR ROM-4
+Added Pin To Net: NetName=CHR_A5 Pin=CHR ROM-5
+Added Pin To Net: NetName=CHR_A4 Pin=CHR ROM-6
+Added Pin To Net: NetName=CHR_A3 Pin=CHR ROM-7
+Added Pin To Net: NetName=CHR_A2 Pin=CHR ROM-8
+Added Pin To Net: NetName=CHR_A1 Pin=CHR ROM-9
+Added Pin To Net: NetName=CHR_A0 Pin=CHR ROM-10
+Added Pin To Net: NetName=CHR_D2 Pin=CHR ROM-12
+Added Pin To Net: NetName=CHR_D1 Pin=CHR ROM-13
+Added Pin To Net: NetName=GND Pin=CHR ROM-14
+Added Pin To Net: NetName=CHR_D3 Pin=CHR ROM-15
+Added Pin To Net: NetName=CHR_D4 Pin=CHR ROM-16
+Added Pin To Net: NetName=CHR_D5 Pin=CHR ROM-17
+Added Pin To Net: NetName=CHR_D6 Pin=CHR ROM-18
+Added Pin To Net: NetName=CHR_D7 Pin=CHR ROM-19
+Added Pin To Net: NetName=NetCHR ROM_20 Pin=CHR ROM-20
+Added Pin To Net: NetName=CHR_A10 Pin=CHR ROM-21
+Added Pin To Net: NetName=NetCHR ROM_22 Pin=CHR ROM-22
+Added Pin To Net: NetName=CHR_A11 Pin=CHR ROM-23
+Added Pin To Net: NetName=CHR_A9 Pin=CHR ROM-24
+Added Pin To Net: NetName=CHR_A8 Pin=CHR ROM-25
+Added Pin To Net: NetName=GND Pin=CHR ROM-26
+Added Pin To Net: NetName=VCC Pin=CHR ROM-27
+Added Pin To Net: NetName=VCC Pin=CHR ROM-28
+Added Pin To Net: NetName=NetJ1_22 Pin=J?-1
+Added Pin To Net: NetName=CHR_A10 Pin=J?-2
+Added Pin To Net: NetName=PRG_A14 Pin=PRG ROM-1
+Added Pin To Net: NetName=PRG_A12 Pin=PRG ROM-2
+Added Pin To Net: NetName=PRG_A7 Pin=PRG ROM-3
+Added Pin To Net: NetName=PRG_A6 Pin=PRG ROM-4
+Added Pin To Net: NetName=PRG_A5 Pin=PRG ROM-5
+Added Pin To Net: NetName=PRG_A4 Pin=PRG ROM-6
+Added Pin To Net: NetName=PRG_A3 Pin=PRG ROM-7
+Added Pin To Net: NetName=PRG_A2 Pin=PRG ROM-8
+Added Pin To Net: NetName=PRG_A1 Pin=PRG ROM-9
+Added Pin To Net: NetName=PRG_A0 Pin=PRG ROM-10
+Added Pin To Net: NetName=PRG_D2 Pin=PRG ROM-11
+Added Pin To Net: NetName=PRG_D1 Pin=PRG ROM-12
+Added Pin To Net: NetName=PRG_D0 Pin=PRG ROM-13
+Added Pin To Net: NetName=GND Pin=PRG ROM-14
+Added Pin To Net: NetName=PRG_D3 Pin=PRG ROM-15
+Added Pin To Net: NetName=PRG_D4 Pin=PRG ROM-16
+Added Pin To Net: NetName=PRG_D5 Pin=PRG ROM-17
+Added Pin To Net: NetName=PRG_D6 Pin=PRG ROM-18
+Added Pin To Net: NetName=PRG_D7 Pin=PRG ROM-19
+Added Pin To Net: NetName=GND Pin=PRG ROM-20
+Added Pin To Net: NetName=PRG_A10 Pin=PRG ROM-21
+Added Pin To Net: NetName=NetJ1_50 Pin=PRG ROM-22
+Added Pin To Net: NetName=PRG_A11 Pin=PRG ROM-23
+Added Pin To Net: NetName=PRG_A9 Pin=PRG ROM-24
+Added Pin To Net: NetName=PRG_A8 Pin=PRG ROM-25
+Added Pin To Net: NetName=PRG_A13 Pin=PRG ROM-26
+Added Pin To Net: NetName=VCC Pin=PRG ROM-27
+Added Pin To Net: NetName=VCC Pin=PRG ROM-28
+Change Class Name : Old Net Name=NES-NROM-256 New Net Name=NES-NEEPROM-256
+Added Member To Class: ClassName=NES-NEEPROM-256 Member=Component CHR ROM AT28C256
+Added Member To Class: ClassName=NES-NEEPROM-256 Member=Component PRG ROM AT28C256
