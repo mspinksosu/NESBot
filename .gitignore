@@ -1,5 +1,13 @@
-# Altium history files
-*.zip
+# Altium folders
+Hardware/History/
+Hardware/NES-NEEPROM-256 Cart/History/
+Hardware/NES-NEEPROM-256 Cart/Source/History/
+Hardware/NES-NEEPROM-256 Cart/Source/__Previews/
+Hardware/NES-NEEPROM-256 Cart/Project Logs for*/
+Hardware/NES-NROM Carts/History/
+Hardware/NES-NROM Carts/Source/History/
+Hardware/NES-NROM Carts/Source/__Previews/
+Hardware/NES-NROM Carts/Project Logs for*/
 
 # Windows image file caches
 Thumbs.db
@@ -44,3 +52,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Hardware/NES-NROM Carts/History/NES-NROM-128.~(1).PrjPCB.Zip
