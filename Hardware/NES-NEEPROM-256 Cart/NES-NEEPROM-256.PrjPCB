@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for NES-NEEPROM-256
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -71,23 +71,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DKBPBSDB
-
-[Document3]
-DocumentPath=Project Outputs for NES-NEEPROM-256\Output Job 1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Parameter1]
 Name=ProjectRevision
@@ -137,7 +120,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for NES-NEEPROM-256
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -988,15 +971,15 @@ ComponentSymbolReference1=Cap Semi
 ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=NES Symbols.SchLib
-ComponentDesignItemID2=AT28C256
-ComponentSymbolReference2=AT28C256
+ComponentLibraryIdentifier2=Specialty Components.IntLib
+ComponentDesignItemID2=72 Pin Cart
+ComponentSymbolReference2=72 Pin Cart
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Specialty Components.IntLib
-ComponentDesignItemID3=72 Pin Cart
-ComponentSymbolReference3=72 Pin Cart
+ComponentDesignItemID3=AT28C256
+ComponentSymbolReference3=AT28C256
 ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
