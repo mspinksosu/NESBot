@@ -106,9 +106,9 @@ Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39370079|ViewY=15748031|LookAtX=29685040|LookAtY=17874016|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.02107999326087E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 
 [PublishSettings]
-OutputFilePath2=C:\Users\maspin\Documents\GitHub\NESBot\Hardware\NES-NEEPROM-256 Cart\Project Outputs for NES-NEEPROM-256\NES-NEEPROM-256 rev 1-0-0.PDF
+OutputFilePath2=C:\Users\maspin\Documents\GitHub\NESBot\Hardware\NES-NEEPROM-256 Cart\Schematics\NES-NEEPROM-256 rev 1-0-0.PDF
 ReleaseManaged2=0
-OutputBasePath2=Project Outputs for NES-NEEPROM-256\
+OutputBasePath2=Schematics\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -183,7 +183,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\maspin\Documents\GitHub\NESBot\Hardware\NES-NEEPROM-256 Cart\Project Outputs for NES-NEEPROM-256\NES-NEEPROM-256 rev 1-0-0.PDF
+RelativeOutputPath2=C:\Users\maspin\Documents\GitHub\NESBot\Hardware\NES-NEEPROM-256 Cart\Schematics\NES-NEEPROM-256 rev 1-0-0.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
